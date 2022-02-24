@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Electronics</title>
+
+        <link rel="stylesheet" href="css/home.css">
+    </head>
+    <body>
+
+        
+        <nav class="navbar"></nav>
+
+            
+
+        <!-- hero section-->
+       <header class="hero-section">
+            <div class="content">
+                <img src="img/loGO.png" class="logo" alt="">
+                <!--<p class="sub-heading">best electronics website</p>-->
+            </div>
+       </header>
+
+       <div class="small-container">
+           <h2 class="title">Featured Products</h2>
+       </div>
+
+       <section id="phones-products"></section>
+       <!--Colection-->
+       
+       <section id="accessories-products-2"></section>
+
+    <footer></footer>
+
+
+       <script src="js/nav.js"></script>
+       <script src="js/footer.js"></script>
+       <script src="js/home.js"></script>
+       
+
+       <script>
+           getProducts('phones').then(data => createProductSlider(data, '#phones-products', 'Phones'))
+           getProducts('accessories').then(data => createProductSlider(data, '#accessories-products-2', 'Accessories'))
+       </script>
+       
+       
+    </body>
+</html>
