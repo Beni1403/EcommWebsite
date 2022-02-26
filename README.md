@@ -38,7 +38,8 @@ Second one is a Google Firestore databases. This data base stores all da data fr
 ![Project Image](https://i.ibb.co/26VtqgD/7.png)
 On this website, apart from buying, you can also sell. You first have to register as a seller, this means the website will take a small amount from your earnings, and than you you have to create the products and post them.
 ![Project Image](https://i.ibb.co/MPgGRsC/2.png)
-The password of each user and seller is encrypted from the server.js file. 
+The password of each user and seller is encrypted from the server.js file.
+The prject include two files with the AWS keys and Firestore keys, they're not included here. A .env and a .json file.
                                                                                                         
 
 ---
